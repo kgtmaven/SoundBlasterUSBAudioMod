@@ -38,5 +38,5 @@ This driver is designed to solve problems that older devices have with newer ope
 
 ## Notes
  - To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
- - To use the Dolby Digital Live and DTS Connect, DDL/DTS Connect Pack Software and additional Activation is required. (KGAs something, do it your self.)
+ - To use the Dolby Digital Live and DTS Connect, 'Dolby Digital Live & DTS Connect Pack' Software and additional Activation is required. (KGAs something, do it your self.)
  - When installing the driver, you must boot in 'Disable driver signature enforcement' mode.
