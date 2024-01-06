@@ -13,7 +13,7 @@ This driver is designed to solve problems that older devices have with newer ope
 ## Supported Devices
  - Sound Blaster X-Fi Notebook
  - Sound Blaster X-Fi Surround 5.1
- - Sound Blaster X-Fi Go! (WIP)
+ - Sound Blaster X-Fi Go!
 
 <br/>
 
