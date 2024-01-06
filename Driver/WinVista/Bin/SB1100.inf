@@ -584,7 +584,7 @@ AddReg=COINST.AddReg
 [SB1100_Device.ntx86]
 Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration, WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
-CopyFiles=KSAUD.CopyList,SBAVMon.CopyList,SfxFx.CopyList.ntx86,APOIMConfig.CopyList
+CopyFiles=KSAUD.CopyList,MBFilt.CopyList.ntx86,SBAVMon.CopyList,SfxFx.CopyList.ntx86,APOIMConfig.CopyList
 AddReg=KSAUD.AddReg,SBAVMon.AddReg,SB1100.AddReg,KS_NAMES.AddReg
 RegisterDlls=SfxFx.RegisterDlls.ntx86
 
