@@ -22,7 +22,7 @@ This driver is designed to solve problems that older devices have with newer ope
    - ![sbxnmodstereo](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/3a4771ca-9745-4942-b226-3a6d85878cb9)
    - Sound Blaster X-Fi Notebook originally only supports Virtual 5.1 Surround output. So there is a minor problem in some applications that only support 2ch Stereo. This driver solved this and added 2ch Stereo output.
      
- - Dolby Digital Live and DTS Connect Encoder.
+ - Dolby Digital Live and DTS Connect Encoder for Sound Blaster X-Fi Surround 5.1
    - ![VirtualBox_Win10_06_01_2024_14_37_40](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/1362955d-27a0-4e4f-8144-f0128f34125a)
    - Sound Blaster X-Fi Surround 5.1 (not Pro) does not originally support DDL or DTS Connect. This driver supports these as additional features.
 
