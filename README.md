@@ -34,4 +34,5 @@ This driver is designed to solve problems that older devices have with newer ope
 <br/>
 
 ## Notes
-To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
+ - To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
+ - When installing the driver, you must boot in 'Disable driver signature enforcement' mode.
