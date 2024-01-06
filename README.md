@@ -7,13 +7,7 @@ Such as Sound Blaster X-Fi Surround 5.1, Sound Blaster X-Fi Notebook, Sound Blas
 This driver is designed to solve problems that older devices have with newer operating systems and to provide additional features.
 
 <br/><br/>
-<picture>
-  <source
-    srcset="https://user-images.githubusercontent.com/634063/202742848-63fa1488-6254-49b5-af7c-96a6b50ea8af.png"
-    media="(prefers-color-scheme: dark)"
-  />
-  <img src="https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/2f6342f5-f3a1-45b7-bc71-282f792dd7cf"/>
-</picture>
+![sbxnmod](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/7c3e5639-b165-4d87-b2e1-601b6489d7fd)
 <br/><br/>
 
 ## Supported Devices
@@ -23,7 +17,10 @@ This driver is designed to solve problems that older devices have with newer ope
 
 <br/>
 
-## Implemented APO
+## Additional Features
+ - 2ch Stereo Output for Sound Blaster X-Fi Notebook.
+   - ![sbxnmodstereo](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/3a4771ca-9745-4942-b226-3a6d85878cb9)
+   - Sound Blaster X-Fi Notebook originally only supports Virtual 5.1 Surround output. So there is a minor problem in some applications that only support 2ch Stereo. This driver solved this and added 2ch Stereo output.
  - Sound Blaster X-Fi MB2
    - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
  - THX TruStudio Pro
