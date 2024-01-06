@@ -582,7 +582,7 @@ AddReg=COINST.AddReg
 [SB1090_Device.ntx86]
 Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration, WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
-CopyFiles=KSAUD.CopyList,MBFilt.CopyList.ntx86,SBAVMon.CopyList,SfxFx.CopyList.ntx86,APOIMConfig.CopyList
+CopyFiles=KSAUD.CopyList,MBFilt.CopyList.ntx86,SBAVMon.CopyList,SfxFx.CopyList.ntx86,SfxFxAPOChain.CopyList.ntx86,APOIMConfig.CopyList
 AddReg=KSAUD.AddReg,SBAVMon.AddReg,SB1090.AddReg,KS_NAMES.AddReg
 RegisterDlls=SfxFx.RegisterDlls.ntx86
 
@@ -596,7 +596,7 @@ AddService = ksaud, 0x00000002, KSAUD_Service_Inst
 AddService = MBfilt, 0x00000000, Filter_Service_Install_ntx86
 
 [SB1090_Device.ntx86.HW]
-AddReg=SB1090HW.AddReg
+AddReg=SB1090HW.AddReg, FilterHW.AddReg
 DelReg=KSAUDHW.DelReg
 
 ;; SB1090 specific amd64 install*****************************************************************************
@@ -622,7 +622,7 @@ AddService = ksaud, 0x00000002, KSAUD_Service_Inst
 AddService = MBfilt, 0x00000000, Filter_Service_Install_ntamd64
 
 [SB1090_Device.ntamd64.HW]
-AddReg=SB1090HW.AddReg
+AddReg=SB1090HW.AddReg, FilterHW.AddReg
 DelReg=KSAUDHW.DelReg
 
 ;; Register Dlls **********************************************************************************
