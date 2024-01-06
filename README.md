@@ -25,9 +25,11 @@ This driver is designed to solve problems that older devices have with newer ope
 
 ## Implemented APO
  - Sound Blaster X-Fi MB2
+   - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
  - THX TruStudio Pro
+   - This is part of the Sound Blaster X-Fi MB2. so i implemented it together.
 
-because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
+
 
 <br/>
 
