@@ -7,7 +7,7 @@ Such as Sound Blaster X-Fi Surround 5.1, Sound Blaster X-Fi Notebook, Sound Blas
 This driver is designed to solve problems that older devices have with newer operating systems and to provide additional features.
 
 <br/><br/>
-![sbxnmod](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/7c3e5639-b165-4d87-b2e1-601b6489d7fd)
+![sbxnmod](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/94b22b31-ed95-44cf-9d2b-5fbb8802f859)
 <br/><br/>
 
 ## Supported Devices
