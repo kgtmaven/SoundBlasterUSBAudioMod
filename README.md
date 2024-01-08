@@ -36,6 +36,12 @@ This driver is designed to solve problems that older devices have with newer ope
 
 <br/>
 
+## Current Work in Progress
+  - DTS Neo:PC Decoder
+    - ![VirtualBox_Win10_08_01_2024_12_47_08](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/2b82fe5d-d1d6-4486-8d2a-b290b0721654)
+    - I'm currently working hard to implement this, but it cannot be offered as an additional features at this moment as it conflicts with X-Fi CMSS-3D.
+
+
 ## Notes
  - To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
  - To use the Dolby Digital Live and DTS Connect, 'Dolby Digital Live & DTS Connect Pack' Software and additional Activation is required. (KGAs something, do it your self.)
