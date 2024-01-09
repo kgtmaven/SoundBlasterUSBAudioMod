@@ -902,6 +902,7 @@ HKR,"EP\\2",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,
 HKR,"EP\\2",%PKEY_AudioEngine_OEMFormat_FLOAT%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKR,"EP\\2",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\2",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB1090.ini
+HKR,"EP\\2",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\2",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000201
 
 HKR,"EP\\3",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_LINE_CONNECTOR%
@@ -909,6 +910,7 @@ HKR,"EP\\3",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,
 HKR,"EP\\3",%PKEY_AudioEngine_OEMFormat_FLOAT%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKR,"EP\\3",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\3",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB1090.ini
+HKR,"EP\\3",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\3",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000201
 
 

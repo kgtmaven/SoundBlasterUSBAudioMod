@@ -855,6 +855,7 @@ HKR,"EP\\1",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,
 HKR,"EP\\1",%PKEY_AudioEngine_OEMFormat_FLOAT%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKR,"EP\\1",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\1",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB0950.ini
+HKR,"EP\\1",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\1",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000201
 
 HKR,"EP\\2",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_MICROPHONE%
@@ -862,6 +863,7 @@ HKR,"EP\\2",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,
 HKR,"EP\\2",%PKEY_AudioEngine_OEMFormat_FLOAT%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKR,"EP\\2",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\2",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB0950.ini
+HKR,"EP\\2",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\2",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000201
 
 HKR,"EP\\3",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANALOG_CONNECTOR%
@@ -869,6 +871,7 @@ HKR,"EP\\3",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,
 HKR,"EP\\3",%PKEY_AudioEngine_OEMFormat_FLOAT%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKR,"EP\\3",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\3",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB0950.ini
+HKR,"EP\\3",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\3",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000201
 
 HKR,"EP\\4",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_DIGITAL_AUDIO_INTERFACE%
@@ -876,6 +879,7 @@ HKR,"EP\\4",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,
 HKR,"EP\\4",%PKEY_AudioEngine_OEMFormat_FLOAT%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKR,"EP\\4",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\4",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB0950.ini
+HKR,"EP\\4",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\4",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000201
 
 [SBAVMon.AddReg]
