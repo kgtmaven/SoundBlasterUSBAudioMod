@@ -40,6 +40,13 @@ This driver is designed to solve problems that older devices have with newer ope
 
 <br/>
 
+## Current Work in Progress
+  - SBX Pro Studio Surround for Sound Blaster R3 / Audigy 6 USB
+
+    - ![sb1540_mod](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/654e51ba-b5e4-4f59-8052-5b6754effadc)
+    - This hardware does not originally support the 'SBX Pro Studio Surround' effect. So I'm implementing some effects using hardware processing for effects that were originally supported, and using software processing for effects that were not originally supported. Like the X-Fi Notebook.
+
+<br/>
 
 ## Notes
  - To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
