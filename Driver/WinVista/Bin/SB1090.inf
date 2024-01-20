@@ -590,7 +590,7 @@ Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration, WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
 CopyFiles=KSAUD.CopyList,MBFilt.CopyList.ntx86,SBAVMon.CopyList,SfxFx.CopyList.ntx86,SfxFxAPOChain.CopyList.ntx86,APOIMConfig.CopyList
 AddReg=KSAUD.AddReg,SBAVMon.AddReg,SB1090.AddReg,KS_NAMES.AddReg
-RegisterDlls=SfxFx.RegisterDlls.ntx86
+RegisterDlls=SfxFx.RegisterDlls.ntx86,SfxFxAPOChain.RegisterDlls.ntx86
 
 [SB1090_Device.ntx86.Interfaces]
 AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_GLOBAL%,        SB1090.Interface.Wave
@@ -884,7 +884,7 @@ HKR,"EP\\0",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\0",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\0",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\0",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000101
-HKR,"EP\\0",%PKEY_APO_REDIRECT%,%REG_BINARY%, 0B,00,63,00,01,00,00,00,01,00,00,00
+HKR,"EP\\0",%PKEY_APO_REDIRECT%,1, 0B,00,63,00,01,00,00,00,01,00,00,00
 
 HKR,"EP\\1",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_SPDIF_INTERFACE%
 HKR,"EP\\1",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
@@ -895,7 +895,7 @@ HKR,"EP\\1",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\1",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\1",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB1090.ini
 HKR,"EP\\1",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000101
-HKR,"EP\\1",%PKEY_APO_REDIRECT%,%REG_BINARY%, 0B,00,63,00,01,00,00,00,01,00,00,00
+HKR,"EP\\1",%PKEY_APO_REDIRECT%,1, 0B,00,63,00,01,00,00,00,01,00,00,00
 
 HKR,"EP\\2",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_MICROPHONE%
 HKR,"EP\\2",%PKEY_AudioEngine_OEMFormat%,1, 41,00,7C,74,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
