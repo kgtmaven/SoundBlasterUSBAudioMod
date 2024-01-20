@@ -14,6 +14,7 @@ This driver is designed to solve problems that older devices have with newer ope
  - Sound Blaster X-Fi Notebook
  - Sound Blaster X-Fi Surround 5.1
  - Sound Blaster X-Fi Go!
+ - Sound Blaster Wireless (WIP)
 
 <br/>
 
