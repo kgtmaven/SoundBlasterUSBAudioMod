@@ -22,6 +22,10 @@ This driver is designed to solve problems that older devices have with newer ope
  - 2ch Stereo Output for Sound Blaster X-Fi Notebook.
    - ![sbxnmodstereo](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/3a4771ca-9745-4942-b226-3a6d85878cb9)
    - Sound Blaster X-Fi Notebook originally only supports Virtual 5.1 Surround output. So there is a minor problem in some applications that only support 2ch Stereo. This driver solved this and added 2ch Stereo output.
+
+ - Bass Boost effect for Sound Blaster X-Fi Notebook.
+   - ![VirtualBox_Win10_02_02_2024_17_10_02](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/f6e69a8b-fe28-4003-b12d-11bd27e19a7e)
+   - The Bass Boost effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Notebook. I don't know why it isn't supported, but this driver supports the Bass Boost effect just like other Sound Blaster X-Fi sound cards.
      
  - Dolby Digital Live and DTS Connect Encoder for Sound Blaster X-Fi Surround 5.1
    - ![VirtualBox_Win10_09_01_2024_02_29_24](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/5ac239fc-ef51-412d-bc27-182cc61f0349)
