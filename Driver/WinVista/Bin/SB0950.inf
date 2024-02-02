@@ -46,6 +46,8 @@ SBX.bmp        = 101
 MBAPO32.dll=101,i386
 MBTHX32.dll=101,i386
 mbfilt32.sys=101,i386
+OAAPO32.dll=101,i386
+OAfilt.sys=101,i386
 
 [SourceDisksFiles.amd64]
 ksaud.sys     = 101,amd64
@@ -89,6 +91,9 @@ MBAPO64.dll=101,amd64
 MBTHX32.dll=101,amd64
 MBTHX64.dll=101,amd64
 mbfilt64.sys=101,amd64
+OAAPO32.dll=101,amd64
+OAAPO64.dll=101,amd64
+OAfilt.sys=101,amd64
 
 [Manufacturer]
 %MfgName%=CREATIVE, ntx86, ntamd64, ntx86.6.3, ntamd64.6.3
@@ -169,7 +174,7 @@ HKR,Drivers\aux\wdmaud.drv,Driver,,wdmaud.drv
 HKR,Config,Refresh,1,1,0,0,0
 
 [FilterHW.AddReg]
-HKR,,"UpperFilters",0x00010000,"MBfilt"
+HKR,,"UpperFilters",0x00010000,"OAfilt", "MBfilt"
 
 [KSAUDHW.DelReg]
 HKR,KSAud_Device
@@ -449,6 +454,7 @@ HKLM,%KSVSPIInfo%,%KSNode.LineMicMicArrayInVol%,,%KSNodeShort.LineMicMicArrayInV
 
 [DestinationDirs]
 KSAUD.CopyList         = 10,system32\drivers ; %SystemRoot%\system32\drivers
+OAFilt.CopyList         = 10,system32\drivers ; %SystemRoot%\system32\drivers
 MBFilt.CopyList.ntx86  = 10,system32\drivers ; %SystemRoot%\system32\drivers
 MBFilt.CopyList.ntamd64 = 10,system32\drivers ; %SystemRoot%\system32\drivers
 DefaultDestDir         = 10,system32\drivers ; %SystemRoot%\system32\drivers
@@ -474,6 +480,9 @@ AudioBrand.SBX.CopyList = 11           ; %SystemRoot%\system32
 
 [KSAUD.CopyList]
 ksaud.sys
+
+[OAFilt.CopyList]
+OAfilt.sys
 
 [MBFilt.CopyList.ntx86]
 mbfilt32.sys
@@ -501,6 +510,7 @@ KSPPLD32.dll
 KSVSPI32.dll
 MBAPO32.dll
 MBTHX32.dll
+OAAPO32.dll
 
 [SfxFxAPOChain.CopyList.ntx86]
 KSWrap32.dll  
@@ -519,6 +529,7 @@ KSPPLD64.dll
 KSVSPI64.dll
 MBAPO64.dll
 MBTHX64.dll
+OAAPO64.dll
 
 [SfxFxAPOChain.CopyList.ntamd64]
 KSWrap64.dll  
@@ -536,6 +547,7 @@ KSAPO32.dll
 KSVSPI32.dll
 MBAPO32.dll
 MBTHX32.dll
+OAAPO32.dll
 
 [SfxFx32Malc.CopyList.ntamd64]
 KsMalc32.dll
@@ -583,7 +595,7 @@ AddReg=COINST.AddReg
 [SB0950_Device.ntx86]
 Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration, WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
-CopyFiles=KSAUD.CopyList,MBFilt.CopyList.ntx86,SBAVMon.CopyList,SfxFx.CopyList.ntx86,SfxFxAPOChain.CopyList.ntx86,APOIMConfig.CopyList
+CopyFiles=KSAUD.CopyList,OAFilt.CopyList,MBFilt.CopyList.ntx86,SBAVMon.CopyList,SfxFx.CopyList.ntx86,SfxFxAPOChain.CopyList.ntx86,APOIMConfig.CopyList
 AddReg=KSAUD.AddReg,SBAVMon.AddReg,SB0950.AddReg,KS_NAMES.AddReg
 RegisterDlls=SfxFx.RegisterDlls.ntx86,SfxFxAPOChain.RegisterDlls.ntx86
 
@@ -594,6 +606,7 @@ AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_GLOBAL_SINGLE%,      SB0950.Interface.
 
 [SB0950_Device.ntx86.Services]
 AddService = ksaud, 0x00000002, KSAUD_Service_Inst
+AddService = OAfilt, 0x00000000, Filter_Service_Install
 AddService = MBfilt, 0x00000000, Filter_Service_Install_ntx86
 
 [SB0950_Device.ntx86.HW]
@@ -609,7 +622,7 @@ AddReg=COINST.AddReg
 [SB0950_Device.ntamd64]
 Include=ks.inf, wdmaudio.inf
 Needs=KS.Registration, WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
-CopyFiles=KSAUD.CopyList,MBFilt.CopyList.ntamd64,SBAVMon.CopyList,SfxFx.CopyList.ntamd64,SfxFxAPOChain.CopyList.ntamd64,SfxFx32.CopyList.ntamd64,APOIMConfig.CopyList
+CopyFiles=KSAUD.CopyList,OAFilt.CopyList,MBFilt.CopyList.ntamd64,SBAVMon.CopyList,SfxFx.CopyList.ntamd64,SfxFxAPOChain.CopyList.ntamd64,SfxFx32.CopyList.ntamd64,APOIMConfig.CopyList
 AddReg=KSAUD.AddReg,SBAVMon.AddReg,SB0950.AddReg,KS_NAMES.AddReg
 RegisterDlls=SfxFx.RegisterDlls.ntamd64,SfxFxAPOChain.RegisterDlls.ntamd64
 
@@ -620,6 +633,7 @@ AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_GLOBAL_SINGLE%,      SB0950.Interface.
 
 [SB0950_Device.ntamd64.Services]
 AddService = ksaud, 0x00000002, KSAUD_Service_Inst
+AddService = OAfilt, 0x00000000, Filter_Service_Install
 AddService = MBfilt, 0x00000000, Filter_Service_Install_ntamd64
 
 [SB0950_Device.ntamd64.HW]
@@ -654,8 +668,10 @@ DelReg=KSAUDHW.DelReg
 11,,KSVSPI64.dll,1
 11,,MBAPO64.dll,1
 11,,MBTHX64.dll,1
+11,,OAAPO64.dll,1
 10,SysWOW64,MBAPO32.dll,1
 10,SysWOW64,MBTHX32.dll,1
+10,SysWOW64,OAAPO32.dll,1
 
 [SfxFxAPOChain.RegisterDlls.ntamd64]
 16425,,KSWrap32.dll,1
@@ -756,9 +772,9 @@ HKR,"FX\\0",%PKEY_SYSFX_Association%,,%KSNODETYPE_SPEAKER%
 HKR,"FX\\0",%PKEY_CT_APO_CUSTOM_KEY%,,%CT_APO_CUSTOM_VALUE%
 
 ;;2 chanined apo
-HKR,"FX\\0",%PKEY_LFX_APO1%,,%SYSFX_PREMIX_CLSID_MB%
+HKR,"FX\\0",%PKEY_LFX_APO1%,,%SYSFX_PREMIX_CLSID_OA%
 HKR,"FX\\0",%PKEY_LFX_APO2%,,%SYSFX_PREMIX_CLSID_THX%
-HKR,"FX\\0",%PKEY_GFX_APO1%,,%SYSFX_POSTMIX_CLSID_MB%
+HKR,"FX\\0",%PKEY_GFX_APO1%,,%SYSFX_POSTMIX_CLSID_OA%
 HKR,"FX\\0",%PKEY_GFX_APO2%,,%SYSFX_POSTMIX_CLSID_THX%
 HKR,"FX\\0",%PKEY_APO_NUM%,0x10001,%NUM_APO_SET%
 
@@ -845,7 +861,7 @@ HKR,"EP\\0",%CTPKEY_CommandRouter_SettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\0",%CTPKEY_Endpoint_SettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\0",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB0950.ini
 HKR,"EP\\0",%CTPKEY_APR_Support%,1,0b,00,63,00,01,00,00,00,01,00,00,00
-HKR,"EP\\0",%PKEY_EFFECTNODEINFO_RENDER%,,%EFFECTNODEINFO_RENDER_KS%
+HKR,"EP\\0",%PKEY_EFFECTNODEINFO_RENDER%,,%EFFECTNODEINFO_RENDER_OA%
 HKR,"EP\\0",%PKEY_EFFECTNODEINFO_RENDER2%,,%EFFECTNODEINFO_RENDER_THX%
 HKR,"EP\\0",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000101
 HKR,"EP\\0",%PKEY_APO_REDIRECT%,1, 0B,00,63,00,01,00,00,00,01,00,00,00
@@ -910,6 +926,12 @@ ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
 StartType      = 3                  ; SERVICE_DEMAND_START
 ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
 ServiceBinary  = %10%\system32\drivers\ksaud.sys
+
+[Filter_Service_Install]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\system32\drivers\OAfilt.sys
 
 [Filter_Service_Install_ntx86]
 DisplayName   = "Service for Creative Audio Filter"
@@ -1351,13 +1373,17 @@ AUDIOENDPOINT_EXT_UI_CLSID     = "{F908CF48-AACC-44d7-ABC3-23C1AB553C44}"
 SYSFX_UI_CLSID_KS              = "{C493C242-D70B-4c2a-97D1-717EAC93AEBC}"
 SYSFX_PREMIX_CLSID_KS          = "{B97FC76B-7322-4bf0-A1E2-479E4DD2BC00}"
 SYSFX_POSTMIX_CLSID_KS         = "{856CB7D9-8535-41fb-B84C-6D1FB5FEBBFA}"
+SYSFX_PREMIX_CLSID_OA          = "{e3591557-2a32-448e-80c5-4498fa4725e4}"
+SYSFX_POSTMIX_CLSID_OA         = "{0e8c5482-2249-4254-a150-4f68aa22ad36}"
 SYSFX_PREMIX_CLSID_MB         = "{625B52E8-3C5F-4d1c-ABD3-DD8E4526F059}"
 SYSFX_POSTMIX_CLSID_MB        = "{0CC838CF-95B2-42cd-BED1-324E39134692}"
 SYSFX_PREMIX_CLSID_THX         = "{6147b7f5-1bb4-4117-b0d9-ada799329479}"
 SYSFX_POSTMIX_CLSID_THX        = "{fe512d41-3f30-4442-b5df-7889cb2aad7a}"
 EFFECTNODEINFO_RENDER_KS       = "{8FDF594B-0AB0-42f3-8965-26F42841B32B}"
+EFFECTNODEINFO_RENDER_OA       = "{0949a0aa-4b24-446a-9053-355ffcafcf4a}"
 EFFECTNODEINFO_RENDER_THX      = "{19d68d4e-5e29-41d4-bde0-aaafeb930b20}"
 SYSFX_FriendlyName             = "Creative System Effect"
+
 
 PKEY_CT_APO_CUSTOM_KEY        = "{35DF8779-6D98-4476-B3D3-F0FAC0E4F5BD},0"
 CT_APO_CUSTOM_VALUE           = "{2D46BA67-0778-48ef-82AF-BF1DB3E45FFE}"
