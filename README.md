@@ -29,12 +29,16 @@ This driver is designed to solve problems that older devices have with newer ope
    - The Bass Boost effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Notebook. I don't know why it isn't supported, but this driver supports the Bass Boost effect just like other Sound Blaster X-Fi sound cards.
 
  - Dolby Digital Live and DTS Connect Encoder for Sound Blaster X-Fi Surround 5.1
-   - ![VirtualBox_Win10_09_01_2024_02_29_24](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/5ac239fc-ef51-412d-bc27-182cc61f0349)
+   - ![VirtualBox_Win10_11_02_2024_14_12_38](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/253ce891-345b-4093-9c91-540b14652194)
    - Sound Blaster X-Fi Surround 5.1 (not Pro) does not originally support DDL or DTS Connect. This driver supports these as additional features.
  
  - DTS Neo:PC Decoder for Sound Blaster X-Fi Surround 5.1
-   - ![VirtualBox_Win10_09_01_2024_02_32_44](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/10fb011b-fb59-45a1-a50b-5dc1ef442bda)
+   - ![VirtualBox_Win10_11_02_2024_14_13_50](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/74063a89-beb7-4d56-93fc-546b621c7585)
    - This feature is not supported by most other Sound Blaster USB MOD drivers. (Originally, only PCI based Sound Blaster supported this feature.) This driver provides this as an additional feature.
+
+ - SVM (Smart Volume Management) for Sound Blaster X-Fi Surround 5.1
+   - ![VirtualBox_Win10_11_02_2024_14_15_25](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/9fd547f0-4c69-497b-b002-3b3245f2ffd1)
+   - SVM (Smart Volume Management) effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Surround 5.1, I don't know why it isn't supported, but this driver supports the Bass Boost effect just like other Sound Blaster X-Fi sound cards.
 
  - Sound Blaster X-Fi MB2
    - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
