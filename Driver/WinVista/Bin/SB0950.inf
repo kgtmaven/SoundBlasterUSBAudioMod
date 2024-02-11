@@ -84,9 +84,9 @@ SB.ico     	 = 101
 SB.bmp       = 101
 SBX.ico     	 = 101
 SBX.bmp       = 101
-MBAPO32.dll=101,amd64
+MBAPO32.dll=101,i386
 MBAPO64.dll=101,amd64
-MBTHX32.dll=101,amd64
+MBTHX32.dll=101,i386
 MBTHX64.dll=101,amd64
 mbfilt64.sys=101,amd64
 
