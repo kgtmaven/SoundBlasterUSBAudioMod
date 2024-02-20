@@ -135,7 +135,7 @@ ExcludeFromSelect = *
 
 ;; SB1240 specific *****************************************************************************
 [SB1240.Interface.Wave]
-AddReg=SB1240.Interface.Wave.AddReg,SysFx1240.AddReg,SB1240.SysEP.AddReg
+AddReg=SB1240.Interface.Wave.AddReg,SysFx1240.AddReg,SysFx_UI.AddReg,SB1240.SysEP.AddReg
 DelReg=SysFx.DelReg
 
 [SB1240A.Interface.Wave]
@@ -969,6 +969,7 @@ HKR,"EP\\0",%PKEY_EFFECTNODEINFO_RENDER%,,%EFFECTNODEINFO_RENDER_MB%
 HKR,"EP\\0",%PKEY_EFFECTNODEINFO_RENDER2%,,%EFFECTNODEINFO_RENDER_THX%
 HKR,"EP\\0",%CTPKEY_Endpoint_THXSettingsOverride%,,%16419%\cfSB1240.ini
 HKR,"EP\\0",%PKEY_AudioDevice_EnableEndpointByDefault%,0x00010001,0x00000101
+HKR,"EP\\0",%PKEY_APO_REDIRECT%,1, 0B,00,63,00,01,00,00,00,01,00,00,00
 
 
 HKR,"EP\\1",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEADPHONES%
