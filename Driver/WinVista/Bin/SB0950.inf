@@ -1236,7 +1236,7 @@ SB0950.Wave.szPname      ="SB X-Fi Notebook"
 SB0950.Topology.szPname  ="SB X-Fi Notebook"
 ;; Name for audio, midi etc, must be 31 characters or less.
 
-USB\VID_041E&PID_30D2&MI_00.DeviceDesc = "SB X-Fi Notebook"
+USB\VID_041E&PID_30D2&MI_00.DeviceDesc = "SB X-Fi Notebook (Experimental)"
 
 ;; Device Names (non-localizable)
 DevInfoSB0950        ="SOFTWARE\Creative Tech\KSAud\VID_041E&PID_30D2"
