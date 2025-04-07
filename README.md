@@ -41,7 +41,7 @@ This driver is designed to solve problems that older devices have with newer ope
 
  - SVM (Smart Volume Management) for Sound Blaster X-Fi Surround 5.1
    - ![VirtualBox_Win10_11_02_2024_14_15_25](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/9fd547f0-4c69-497b-b002-3b3245f2ffd1)
-   - SVM (Smart Volume Management) effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Surround 5.1, I don't know why it isn't supported, but this driver supports the Bass Boost effect just like other Sound Blaster X-Fi sound cards.
+   - SVM (Smart Volume Management) effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Surround 5.1, I don't know why it isn't supported, but this driver supports the SVM (Smart Volume Management) effect just like other Sound Blaster X-Fi sound cards.
 
  - Sound Blaster X-Fi MB2
    - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
