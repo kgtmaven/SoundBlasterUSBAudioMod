@@ -60,7 +60,7 @@ This driver is designed to solve problems that older devices have with newer ope
 <br/>
 
 ## Notes
- - On Sound Blaster X-Fi Notebook, the current driver's 2ch stereo output mode is limited to 16-bit. To use 24-bit mode, use 5.1 channel output mode or the https://github.com/kgtmaven/SoundBlasterUSBAudioLegacyMod driver.
+ - On Sound Blaster X-Fi Notebook, the current driver's 2ch stereo output mode is limited to 16-bit. To use 24-bit mode, switch the output setting to 5.1 channel output mode, or use the https://github.com/kgtmaven/SoundBlasterUSBAudioLegacyMod driver.
  - To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
  - To use the Dolby Digital Live and DTS Connect, 'Dolby Digital Live & DTS Connect Pack' Software and additional Activation is required. (KGAs something, do it your self.)
  - When installing the driver, you must boot in 'Disable driver signature enforcement' mode.
