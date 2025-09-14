@@ -7,7 +7,7 @@ Such as Sound Blaster X-Fi Surround 5.1, Sound Blaster X-Fi Notebook, Sound Blas
 This driver is designed to solve problems that older devices have with newer operating systems and to provide additional features.
 
 <br/><br/>
-![sbxnmod](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/94b22b31-ed95-44cf-9d2b-5fbb8802f859)
+<img width="1323" height="707" alt="sbx" src="https://github.com/user-attachments/assets/6c12ec45-7029-425b-94b5-a91fc4066506" />
 <br/><br/>
 
 ## Supported Devices
@@ -46,8 +46,8 @@ This driver is designed to solve problems that older devices have with newer ope
  - Sound Blaster X-Fi MB2
    - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
 
- - THX TruStudio Pro
-   - This is part of the Sound Blaster X-Fi MB2. so i implemented it together.
+ - Sound Blaster Cinema
+   - It is implemented for SBX Pro Studio effects. You can install and use the Sound Blaster Cinema control panel, but the THX TruStudio Pro control panel is still available. The same effect is applied with the THX TruStudio Pro control panel as with the SBX Pro Studio. I don't recommend installing the Sound Blaster Cinema control panel because it conflicts with some sound cards. (e.g. Sound Blaster R3 / Audigy 6 USB and etc.) Therefore, I recommend using the THX TruStudio Pro control panel.
 
  - THX TruStudio Pro for Sound Blaster R3 / Audigy 6 USB
  - ![VirtualBox_Win10_06_02_2024_06_11_02](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/5f2cd197-7b5e-42af-81a4-1e23f3e29f7f)
