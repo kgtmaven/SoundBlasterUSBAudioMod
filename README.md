@@ -44,7 +44,7 @@ This driver is designed to solve problems that older devices have with newer ope
    - SVM (Smart Volume Management) effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Surround 5.1, I don't know why it isn't supported, but this driver supports the SVM (Smart Volume Management) effect just like other Sound Blaster X-Fi sound cards.
 
  - Sound Blaster X-Fi MB2
-   - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook.
+   - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook. and it was implemented to use the X-Fi effects on sound cards that do not support the X-Fi effects.
 
  - Sound Blaster Cinema
    - It is implemented for SBX Pro Studio effects. You can install and use the Sound Blaster Cinema control panel, but the THX TruStudio Pro control panel is still available. The same effect is applied with the THX TruStudio Pro control panel as with the SBX Pro Studio. I don't recommend installing the Sound Blaster Cinema control panel because it conflicts with some sound cards. (e.g. Sound Blaster R3 / Audigy 6 USB and etc.) Therefore, I recommend using the THX TruStudio Pro control panel.
