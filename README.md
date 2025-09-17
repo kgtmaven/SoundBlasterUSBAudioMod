@@ -46,7 +46,7 @@ This driver is designed to solve problems that older devices have with newer ope
  - Sound Blaster X-Fi MB2
    - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook. and it was implemented to use the X-Fi effects on sound cards that do not support the X-Fi effects.
 
- - Sound Blaster Cinema
+ - Sound Blaster Cinema (SBX Pro Studio)
    - It is implemented for SBX Pro Studio effects. You can install and use the Sound Blaster Cinema control panel, but the THX TruStudio Pro control panel is still available. The same effect is applied with the THX TruStudio Pro control panel as with the SBX Pro Studio. I don't recommend installing the Sound Blaster Cinema control panel because it conflicts with some sound cards. (e.g. Sound Blaster R3 / Audigy 6 USB and etc.) Therefore, I recommend using the THX TruStudio Pro control panel.
 
  - THX TruStudio Pro for Sound Blaster R3 / Audigy 6 USB
@@ -61,6 +61,6 @@ This driver is designed to solve problems that older devices have with newer ope
 
 ## Notes
  - On Sound Blaster X-Fi Notebook, the current driver's 2ch stereo output mode is limited to 16-bit. To use 24-bit mode, switch the output setting to 5.1 channel output mode, or use the https://github.com/kgtmaven/SoundBlasterUSBAudioLegacyMod driver.
- - To use the Sound Blater X-Fi MB2 and THX TruStudio Pro, additional Activation is required. (KGAs something, do it your self.)
+ - To use the Sound Blater X-Fi MB2 and Sound Blaster Cinema, additional Activation is required. (KGAs something, do it your self.)
  - To use the Dolby Digital Live and DTS Connect, 'Dolby Digital Live & DTS Connect Pack' Software and additional Activation is required. (KGAs something, do it your self.)
  - When installing the driver, you must boot in 'Disable driver signature enforcement' mode.
