@@ -1,5 +1,7 @@
 # Sound Blaster USB Audio Drivers Mod
 
+${\color{red}WARNING! \space Use \space At \space Your \space Own \space Risk!}$
+
 Sound Blaster USB Audio Drivers for older devices.
 
 Such as Sound Blaster X-Fi Surround 5.1, Sound Blaster X-Fi Notebook, Sound Blaster X-Fi Go! and etc.
