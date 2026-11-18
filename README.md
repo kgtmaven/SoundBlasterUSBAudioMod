@@ -9,7 +9,7 @@ Such as Sound Blaster X-Fi Surround 5.1, Sound Blaster X-Fi Notebook, Sound Blas
 This driver is designed to solve problems that older devices have with newer operating systems and to provide additional features.
 
 <br/><br/>
-<img width="1323" height="707" alt="sbx" src="https://github.com/user-attachments/assets/6c12ec45-7029-425b-94b5-a91fc4066506" />
+<img width="608" height="472" alt="294654215-94b22b31-ed95-44cf-9d2b-5fbb8802f859" src="https://github.com/user-attachments/assets/002143f3-ceed-406f-8474-b8605f3992a3" />
 <br/><br/>
 
 ## Supported Devices
@@ -45,11 +45,8 @@ This driver is designed to solve problems that older devices have with newer ope
    - ![VirtualBox_Win10_11_02_2024_14_15_25](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/9fd547f0-4c69-497b-b002-3b3245f2ffd1)
    - SVM (Smart Volume Management) effect is a feature supported on all Sound Blaster X-Fi sound cards except the Sound Blaster X-Fi Surround 5.1, I don't know why it isn't supported, but this driver supports the SVM (Smart Volume Management) effect just like other Sound Blaster X-Fi sound cards.
 
- - Sound Blaster X-Fi MB2
-   - because newer KSAPO will conflict with Sound Blaster X-Fi Notebook. and it was implemented to use the X-Fi effects on sound cards that do not support the X-Fi effects.
-
- - Sound Blaster Cinema (SBX Pro Studio)
-   - It is implemented for SBX Pro Studio effects. You can install and use the Sound Blaster Cinema control panel, but the THX TruStudio Pro control panel is still available. The same effect is applied with the THX TruStudio Pro control panel as with the SBX Pro Studio. I don't recommend installing the Sound Blaster Cinema control panel because it conflicts with some sound cards. (e.g. Sound Blaster R3 / Audigy 6 USB and etc.) Therefore, I recommend using the THX TruStudio Pro control panel.
+ - SBX Pro Studio / THX TruStudio Pro
+   - Now you can use THX TruStudio Pro or SBX Pro Studio effects even on older sound cards!
 
  - THX TruStudio Pro for Sound Blaster R3 / Audigy 6 USB
  - ![VirtualBox_Win10_06_02_2024_06_11_02](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/5f2cd197-7b5e-42af-81a4-1e23f3e29f7f)
@@ -63,6 +60,5 @@ This driver is designed to solve problems that older devices have with newer ope
 
 ## Notes
  - On Sound Blaster X-Fi Notebook, the current driver's 2ch stereo output mode is limited to 16-bit. To use 24-bit mode, switch the output setting to 5.1 channel output mode, or use the https://github.com/kgtmaven/SoundBlasterUSBAudioLegacyMod driver.
- - To use the Sound Blater X-Fi MB2 and Sound Blaster Cinema, additional Activation is required. (KGAs something, do it your self.)
  - To use the Dolby Digital Live and DTS Connect, 'Dolby Digital Live & DTS Connect Pack' Software and additional Activation is required. (KGAs something, do it your self.)
  - When installing the driver, you must boot in 'Disable driver signature enforcement' mode.
