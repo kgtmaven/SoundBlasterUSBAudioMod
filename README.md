@@ -48,11 +48,10 @@ This driver is designed to solve problems that older devices have with newer ope
  - SBX Pro Studio / THX TruStudio Pro
    - Now you can use THX TruStudio Pro or SBX Pro Studio effects even on older sound cards!
 
- - THX TruStudio Pro for Sound Blaster R3 / Audigy 6 USB
- - ![VirtualBox_Win10_06_02_2024_06_11_02](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/5f2cd197-7b5e-42af-81a4-1e23f3e29f7f)
- - This hardware does not originally support the 'SBX Pro Studio Surround' effect. So I'm implemented some effects using hardware processing for effects that were originally supported, and using software processing for effects that were not originally supported. According to the original plan, I was going to implement it so that I could control everything from one control panel as shown below, but the control panel kept malfunctioning and was driving me crazy. So I had no choice but to implement it using the 'THX TruStudio Pro' control panel. So the original effects of using hardware processing can be found in the existing control panel, and the originally unsupported effects of using software processing can be found in the 'THX TruStudio Pro' control panel.
-
- - ![sb1540_mod](https://github.com/kgtmaven/SoundBlasterUSBAudioMod/assets/24592498/654e51ba-b5e4-4f59-8052-5b6754effadc)
+ - SBX Pro Studio Surround / Dialog Plus for Sound Blaster R3 / Audigy 6 USB
+ - <img width="882" height="637" alt="image" src="https://github.com/user-attachments/assets/a7003488-be7f-4b2c-a010-736f6bc941d0" />
+ - This hardware does not originally support the 'SBX Pro Studio Surround' and 'SBX Pro Studio Dialog Plus' effect. So I'm implemented some effects using hardware processing for effects that were originally supported, and using software processing for effects that were not originally supported.
+ - You can download the modified driver and the modified control panel here. (https://github.com/kgtmaven/SB1540Mod)
 
 
 
