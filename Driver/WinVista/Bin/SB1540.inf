@@ -43,9 +43,6 @@ SB.ico     	  = 101
 SB.bmp        = 101
 SBX.ico     	  = 101
 SBX.bmp        = 101
-MBAPO32.dll=101,i386
-MBTHX32.dll=101,i386
-mbfilt32.sys=101,i386
 
 [SourceDisksFiles.amd64]
 ksaud.sys     = 101,amd64
@@ -84,11 +81,7 @@ SB.ico     	 = 101
 SB.bmp       = 101
 SBX.ico     	 = 101
 SBX.bmp       = 101
-MBAPO32.dll=101,i386
-MBAPO64.dll=101,amd64
-MBTHX32.dll=101,i386
-MBTHX64.dll=101,amd64
-mbfilt64.sys=101,amd64
+
 
 [Manufacturer]
 %MfgName%=CREATIVE, ntx86, ntamd64, ntx86.6.3, ntamd64.6.3
@@ -447,8 +440,6 @@ HKLM,%KSVSPIInfo%,%KSNode.LineMicMicArrayInVol%,,%KSNodeShort.LineMicMicArrayInV
 
 [DestinationDirs]
 KSAUD.CopyList         = 10,system32\drivers ; %SystemRoot%\system32\drivers
-MBFilt.CopyList.ntx86  = 10,system32\drivers ; %SystemRoot%\system32\drivers
-MBFilt.CopyList.ntamd64 = 10,system32\drivers ; %SystemRoot%\system32\drivers
 DefaultDestDir         = 10,system32\drivers ; %SystemRoot%\system32\drivers
 SBAVMon.CopyList       = 11                  ; %SystemRoot%\system32
 SfxFx.CopyList.ntx86   = 11                  ; %SystemRoot%\system32
@@ -473,12 +464,6 @@ AudioBrand.SBX.CopyList = 11           ; %SystemRoot%\system32
 [KSAUD.CopyList]
 ksaud.sys
 
-[MBFilt.CopyList.ntx86]
-mbfilt32.sys
-
-[MBFilt.CopyList.ntamd64]
-mbfilt64.sys
-
 [SBAVMon.CopyList]
 SBAVMon.dll
 SBAVMonL.dll
@@ -497,8 +482,6 @@ cfSB1540.ini
 KSAPO32.dll
 KSPPLD32.dll
 KSVSPI32.dll
-MBAPO32.dll
-MBTHX32.dll
 
 [SfxFxAPOChain.CopyList.ntx86]
 KSWrap32.dll  
@@ -515,8 +498,6 @@ KSTask32.dll
 KSAPO64.dll
 KSPPLD64.dll
 KSVSPI64.dll
-MBAPO64.dll
-MBTHX64.dll
 
 [SfxFxAPOChain.CopyList.ntamd64]
 KSWrap64.dll  
@@ -532,8 +513,6 @@ KSTask64.DLL
 [SfxFx32.CopyList.ntamd64]
 KSAPO32.dll
 KSVSPI32.dll
-MBAPO32.dll
-MBTHX32.dll
 
 [SfxFx32Malc.CopyList.ntamd64]
 KsMalc32.dll
@@ -627,8 +606,6 @@ DelReg=KSAUDHW.DelReg
 11,,KSAPO32.dll,1
 11,,KSPPLD32.dll,1
 11,,KSVSPI32.dll,1
-11,,MBAPO32.dll,1
-11,,MBTHX32.dll,1
 
 [SfxFxAPOChain.RegisterDlls.ntx86]
 11,,KSWrap32.dll,1 
@@ -647,10 +624,6 @@ DelReg=KSAUDHW.DelReg
 11,,KSPPLD64.dll,1
 16425,,KSVSPI32.dll,1
 11,,KSVSPI64.dll,1
-11,,MBAPO64.dll,1
-11,,MBTHX64.dll,1
-10,SysWOW64,MBAPO32.dll,1
-10,SysWOW64,MBTHX32.dll,1
 
 [SfxFxAPOChain.RegisterDlls.ntamd64]
 16425,,KSWrap32.dll,1
@@ -1392,12 +1365,7 @@ AUDIOENDPOINT_EXT_UI_CLSID     = "{F908CF48-AACC-44d7-ABC3-23C1AB553C44}"
 SYSFX_UI_CLSID_KS              = "{C493C242-D70B-4c2a-97D1-717EAC93AEBC}"
 SYSFX_PREMIX_CLSID_KS          = "{B97FC76B-7322-4bf0-A1E2-479E4DD2BC00}"
 SYSFX_POSTMIX_CLSID_KS         = "{856CB7D9-8535-41fb-B84C-6D1FB5FEBBFA}"
-SYSFX_PREMIX_CLSID_MB         = "{625B52E8-3C5F-4d1c-ABD3-DD8E4526F059}"
-SYSFX_POSTMIX_CLSID_MB        = "{0CC838CF-95B2-42cd-BED1-324E39134692}"
-SYSFX_PREMIX_CLSID_THX         = "{6147b7f5-1bb4-4117-b0d9-ada799329479}"
-SYSFX_POSTMIX_CLSID_THX        = "{fe512d41-3f30-4442-b5df-7889cb2aad7a}"
 EFFECTNODEINFO_RENDER_KS       = "{8FDF594B-0AB0-42f3-8965-26F42841B32B}"
-EFFECTNODEINFO_RENDER_THX      = "{19d68d4e-5e29-41d4-bde0-aaafeb930b20}"
 SYSFX_FriendlyName             = "Creative System Effect"
 
 PKEY_CT_APO_CUSTOM_KEY        = "{35DF8779-6D98-4476-B3D3-F0FAC0E4F5BD},0"
