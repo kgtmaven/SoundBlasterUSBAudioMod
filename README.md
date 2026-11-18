@@ -51,7 +51,7 @@ This driver is designed to solve problems that older devices have with newer ope
  - SBX Pro Studio Surround / Dialog Plus for Sound Blaster R3 / Audigy 6 USB
  - <img width="882" height="637" alt="image" src="https://github.com/user-attachments/assets/a7003488-be7f-4b2c-a010-736f6bc941d0" />
  - This hardware does not originally support the 'SBX Pro Studio Surround' and 'SBX Pro Studio Dialog Plus' effect. So I'm implemented some effects using hardware processing for effects that were originally supported, and using software processing for effects that were not originally supported.
- - You can download the modified driver and the modified control panel here. (https://github.com/kgtmaven/SB1540Mod)
+ - You can download the modified driver and the modified control panel [here](https://github.com/kgtmaven/SB1540Mod/releases/tag/SB1540).
 
 
 
